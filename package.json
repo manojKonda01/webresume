@@ -1,7 +1,7 @@
 {
   "name": "myresume",
   "version": "0.1.0",
-  "homepage": "https://manojKonda01.github.io/myresume",
+  "homepage": "https://manojKonda01.github.io/webresume",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.2",
