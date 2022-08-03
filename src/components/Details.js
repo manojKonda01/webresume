@@ -25,7 +25,7 @@ function Details() {
   }, []);
   const style = {
     personal_card: { width: "60%" },
-    image_dimensions: { width: "25rem", height: "25rem" },
+    image_dimensions: { width: "20rem", height: "20rem" },
     bg_className : "d-flex justify-content-center align-items-center p-5",
     textAlign: "justify",
     fontSize : {heading: "60px",paragraph : "20px"},
@@ -87,8 +87,7 @@ function Details() {
                   <h1
                     className=" p-3 pb-0 text-center"
                     style={{ fontSize: "80px" }}
-                  >
-                    I'm<br></br>Manoj<br></br>Konda
+                  >Manoj<br></br>Konda
                   </h1>
                   <h6
                     className="p-0 text-center"

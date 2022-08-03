@@ -12,7 +12,7 @@ function Head(props){
     return(<>
         <nav className={shadow ? "navbar navbar-expand-lg bg-light fixed-top position-relative h-auto shadow p-3 mb-2 bg-body rounded" : "navbar navbar-expand-lg fixed-top position-relative h-auto p-3 mb-2"} id="nav-bar">
             <div className="container-fluid p-2">
-                <a className="navbar-brand display-1" href="/"><span className="fs-1"  style={shadow ? {fontWeight:"350", fontFamily:"Saira"} :{fontWeight:"400", fontFamily:"Saira"}}>Manoj Konda</span><br></br><span className="fs-6 font-monospace">Software Engineer</span></a>
+                <div className="navbar-brand display-1" ><img className='w-50' src="https://manojkonda01.github.io/webresume/data/img/mklogo2.png" alt='my-logo'/></div>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
                 </button>
