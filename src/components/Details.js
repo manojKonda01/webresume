@@ -26,10 +26,11 @@ function Details() {
   const style = {
     personal_card: { width: "60%" },
     image_dimensions: { width: "20rem", height: "20rem" },
-    bg_className : "d-flex justify-content-center align-items-center p-5",
+    bg_className: "d-flex justify-content-center align-items-center p-5",
     textAlign: "justify",
-    fontSize : {heading: "60px",paragraph : "20px"},
-    leftAlign: "right"
+    fontSize: { heading: "60px", paragraph: "20px" },
+    leftAlign: "right",
+    skills:{className:"p-5 text-white"}
   };
   if (windowDimensions.width <= 800) {
     style.personal_card.width = "100%";
@@ -37,8 +38,9 @@ function Details() {
     style.image_dimensions.height = "15rem";
     style.bg_className = "d-flex justify-content-center align-items-center p-4";
     style.textAlign = "left";
-    style.fontSize = {heading: "40px",paragraph : "18px"}
+    style.fontSize = { heading: "40px", paragraph: "18px" };
     style.leftAlign = "left";
+    style.skills.className = "p-2 text-white"
   }
   return (
     <>
@@ -79,7 +81,7 @@ function Details() {
                       width: style.image_dimensions.width,
                       height: style.image_dimensions.height,
                       float: "left",
-                      objectFit: "cover"
+                      objectFit: "cover",
                     }}
                   />
                 </div>
@@ -87,7 +89,8 @@ function Details() {
                   <h1
                     className=" p-3 pb-0 text-center"
                     style={{ fontSize: "80px" }}
-                  >Manoj<br></br>Konda
+                  >
+                    Manoj<br></br>Konda
                   </h1>
                   <h6
                     className="p-0 text-center"
@@ -124,7 +127,10 @@ function Details() {
                     style={{ fontWeight: "bold" }}
                   >
                     <div id="about" className="">
-                      <h1 style={{ fontSize: style.fontSize.heading }}> About </h1>
+                      <h1 style={{ fontSize: style.fontSize.heading }}>
+                        {" "}
+                        About{" "}
+                      </h1>
                       <hr style={{ height: "5px", background: "white" }} />
                       <p style={{ fontSize: style.fontSize.paragraph }}>
                         Software Engineer, with a passion for developing
@@ -139,7 +145,10 @@ function Details() {
                     </div>
 
                     <div id="experience" className="pt-5">
-                      <h1 style={{ fontSize: style.fontSize.heading }}> Experience </h1>
+                      <h1 style={{ fontSize: style.fontSize.heading }}>
+                        {" "}
+                        Experience{" "}
+                      </h1>
                       <hr style={{ height: "5px", background: "white" }} />
 
                       <div style={{ fontSize: style.fontSize.paragraph }}>
@@ -147,7 +156,7 @@ function Details() {
                           <VerticalLineContent position="left">
                             <strong>2021 Oct - present</strong>
                             <h5>POKKT</h5>
-                            <p style={{ textAlign: style.leftAlign}}>
+                            <p style={{ textAlign: style.leftAlign }}>
                               Currently Working as Software Engineer for the
                               product at POKKT.<br></br>
                             </p>
@@ -202,7 +211,10 @@ function Details() {
                 }}
               >
                 <div id="education" className="p-5">
-                  <h1 style={{ fontSize: style.fontSize.heading }}> Education </h1>
+                  <h1 style={{ fontSize: style.fontSize.heading }}>
+                    {" "}
+                    Education{" "}
+                  </h1>
                   <hr style={{ height: "5px", background: "white" }} />
                   <div style={{ fontSize: style.fontSize.paragraph }}>
                     <VerticalLineWrapper color="red">
@@ -240,7 +252,7 @@ function Details() {
             <section>
               <div
                 id="skills"
-                className="p-5 text-white"
+                className={style.skills.className}
                 style={{
                   backgroundImage: `url("https://manojkonda01.github.io/webresume/data/img/profile.png")`,
                   backgroundPosition: "bottom",
