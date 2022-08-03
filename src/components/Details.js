@@ -54,7 +54,7 @@ function Details() {
             className={style.bg_className}
             style={{
               height: "auto",
-              backgroundImage: `url("/data/img/main_bg.png")`,
+              backgroundImage: `url("https://manojkonda01.github.io/webresume/data/img/main_bg.png")`,
               backgroundPosition: "bottom",
               backgroundSize: "cover",
               backgroundRepeat: "no-repeat",
@@ -73,7 +73,7 @@ function Details() {
                 <div className="col">
                   <img
                     className="rounded-circle p-2"
-                    src="/data/img/Manoj.jpg"
+                    src="https://manojkonda01.github.io/webresume/data/img/Manoj.jpg"
                     alt="iam-ugly"
                     style={{
                       width: style.image_dimensions.width,
@@ -109,7 +109,7 @@ function Details() {
                 id="profile"
                 className="p-5 bg-white text-white"
                 style={{
-                  backgroundImage: `url("/data/img/skills.png")`,
+                  backgroundImage: `url("https://manojkonda01.github.io/webresume/data/img/skills.png")`,
                   backgroundPosition: "bottom",
                   backgroundSize: "cover",
                   backgroundRepeat: "no-repeat",
@@ -195,7 +195,7 @@ function Details() {
               <div
                 className="p-5 bg-white text-white"
                 style={{
-                  backgroundImage: `url("/data/img/education.png")`,
+                  backgroundImage: `url("https://manojkonda01.github.io/webresume/data/img/education.png")`,
                   backgroundPosition: "bottom",
                   backgroundSize: "cover",
                   backgroundRepeat: "no-repeat",
@@ -243,7 +243,7 @@ function Details() {
                 id="skills"
                 className="p-5 text-white"
                 style={{
-                  backgroundImage: `url("/data/img/profile.png")`,
+                  backgroundImage: `url("https://manojkonda01.github.io/webresume/data/img/profile.png")`,
                   backgroundPosition: "bottom",
                   backgroundSize: "cover",
                   backgroundRepeat: "no-repeat",
