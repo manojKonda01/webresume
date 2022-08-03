@@ -70,7 +70,7 @@ function Details() {
               }}
             >
               <div className="row p-4">
-                <div className="col">
+                <div className="col d-flex justify-content-center align-items-center">
                   <img
                     className="rounded-circle p-2"
                     src="https://manojkonda01.github.io/webresume/data/img/Manoj.jpg"
