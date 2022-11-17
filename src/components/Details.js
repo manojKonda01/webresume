@@ -295,7 +295,7 @@ function Details() {
                   <ProgressBar name="KTOR" value="75" color="#fd0d85" />
                   <ProgressBar
                     name="MySQl, MongoDB, "
-                    component = {<a href='https://drive.google.com/drive/u/0/folders/1BvM1_t8Kz2_SYJn50Ozltt16IXylnmgr' target="_blank" rel="noreferrer" style={hoverColor}  onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>Google BigQuery</a>}
+                    component = {<a href='https://drive.google.com/file/d/1cwpC5GFjd2tzOJqsPuf9hUhOWbI1bQLJ/view?usp=sharing' target="_blank" rel="noreferrer" style={hoverColor}  onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>Google BigQuery</a>}
                     value="80"
                     color="#4805f4"
                   />
