@@ -44,7 +44,7 @@ function Details() {
   }
 
   const [hoverColor, setHoverColor] = useState({ color: "white" });
-
+  //to hover change
    const handleMouseEnter = () => {
       setHoverColor({color : "blue"});
    };
