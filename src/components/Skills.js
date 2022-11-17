@@ -2,7 +2,7 @@ function ProgressBar(props) {
   const style = {width:props.value+"%"} ;
   return (
     <>
-      <p className="pt-4 mb-0 " style={{fontWeight:"900"}}>{props.name}</p>
+      <p className="pt-4 mb-0 " style={{fontWeight:"900"}}>{props.name} {props.component ? props.component : ''}</p>
       <div className="progress">
         <div
           className="progress-bar progress-bar-animated "

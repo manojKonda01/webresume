@@ -42,6 +42,15 @@ function Details() {
     style.leftAlign = "left";
     style.skills.className = "p-2 text-white"
   }
+
+  const [hoverColor, setHoverColor] = useState({ color: "white" });
+
+   const handleMouseEnter = () => {
+      setHoverColor({color : "blue"});
+   };
+   const handleMouseLeave = () => {
+      setHoverColor({color : "white"});
+   };
   return (
     <>
       <div className="h-auto w-auto m-0">
@@ -286,7 +295,8 @@ function Details() {
                   <ProgressBar name="JAVA" value="70" />
                   <ProgressBar name="KTOR" value="75" color="#fd0d85" />
                   <ProgressBar
-                    name="MySQl, Google BigQuery, MongoDB"
+                    name="MySQl, MongoDB, "
+                    component = {<a href='https://drive.google.com/drive/u/0/folders/1BvM1_t8Kz2_SYJn50Ozltt16IXylnmgr' target="_blank" rel="noreferrer" style={hoverColor}  onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>Google BigQuery</a>}
                     value="80"
                     color="#4805f4"
                   />
