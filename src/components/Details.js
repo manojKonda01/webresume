@@ -83,7 +83,7 @@ function Details() {
                 <div className="col d-flex justify-content-center align-items-center">
                   <img
                     className="rounded-circle p-2"
-                    src="https://manojkonda01.github.io/webresume/data/img/Manoj.jpg"
+                    src="https://manojkonda01.github.io/webresume/data/img/manoj_new.jpg"
                     alt="iam-ugly"
                     style={{
                       width: style.image_dimensions.width,
