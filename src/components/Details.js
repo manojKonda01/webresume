@@ -83,7 +83,7 @@ function Details() {
                 <div className="col d-flex justify-content-center align-items-center">
                   <img
                     className="rounded-circle p-2"
-                    src="https://manojkonda01.github.io/webresume/data/img/manoj_new.jpg"
+                    src="https://manojkonda01.github.io/webresume/data/img/new_profile.jpeg"
                     alt="iam-ugly"
                     style={{
                       width: style.image_dimensions.width,
@@ -141,12 +141,17 @@ function Details() {
                       </h1>
                       <hr style={{ height: '5px', background: 'white' }} />
                       <p style={{ fontSize: style.fontSize.paragraph }}>
-                        Dedicated programmer with a background in web
-                        development and design, aiming to contribute to the
-                        school by effectively managing website updates,
-                        designing engaging web pages. Committed to delivering
-                        exceptional results adhering to deadlines and
-                        collaborating seamlessly.
+                        Dedicated Software Engineer with over two years of
+                        professional experience. Proven ability to design,
+                        develop, and maintain high-quality software solutions.
+                        Strong problem-solving skills, effective communication,
+                        and a commitment to continuous improvement. Adept at
+                        working collaboratively in team environments and
+                        independently managing tasks to meet deadlines. Quick
+                        learner with a passion for embracing new technologies
+                        and methodologies. I am seeking an opportunity to
+                        contribute to a collaborative team of professionals that
+                        strive for excellence.
                       </p>
                     </div>
 
