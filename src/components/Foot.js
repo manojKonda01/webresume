@@ -1,4 +1,4 @@
-import ContactDetails from "./ContactDetails";
+import ContactDetails from './ContactDetails';
 function Foot() {
   return (
     <>
@@ -15,11 +15,11 @@ function Foot() {
               <div className="col">
                 <div className="text-center fw-normal ">
                   Call:<br></br>
-                  <span className="fw-light">+91 7702127158</span>
+                  <span className="fw-light">+1 (312)-687-1440</span>
                 </div>
               </div>
               <div className="col">
-                <ContactDetails width="40px" height="40px"/>
+                <ContactDetails width="40px" height="40px" />
               </div>
             </div>
           </div>
