@@ -236,6 +236,15 @@ function Details() {
                   <hr style={{ height: '5px', background: 'white' }} />
                   <div style={{ fontSize: style.fontSize.paragraph }}>
                     <VerticalLineWrapper color="red">
+                      <VerticalLineContent position="right">
+                        <strong>2023 - 2025</strong>
+                        <h5>Loyola University Chicago</h5>
+                        <p>
+                          Master's Degree<br></br>
+                          Information Technology<br></br>
+                          CGPA : 3.7
+                        </p>
+                      </VerticalLineContent>
                       <VerticalLineContent position="left">
                         <strong>2017 - 2021</strong>
                         <h5>NIT Warangal</h5>
@@ -286,16 +295,47 @@ function Details() {
                   style={{ fontSize: style.fontSize.paragraph }}
                   className="container p-3 w-75"
                 >
-                  <ProgressBar name="HTML, CSS" value="75" />
+                  <ProgressBar name="HTML, CSS" value="90" />
                   <ProgressBar name="React Js" value="80" color="#fda206" />
                   <ProgressBar
                     name="JavaScript, JQuery"
                     value="85"
                     color="#d71ca4"
                   />
+                  <ProgressBar name="Node JS" value="85" color="#0d13fd8f" />
                   <ProgressBar
                     name="PHP CODEIGNITER 3, 4"
                     value="85"
+                    color="#4805f4"
+                  />
+                  <ProgressBar
+                    name="Cybersecurity - National Cyber League, Fall 2024  "
+                    component={
+                      <span>
+                        <a
+                          href="https://drive.google.com/file/d/1pFA3SsujOH981pucJaKckwDiBH17zK6H/view?usp=drive_link"
+                          target="_blank"
+                          rel="noreferrer"
+                          style={hoverColor}
+                          onMouseEnter={handleMouseEnter}
+                          onMouseLeave={handleMouseLeave}
+                        >
+                          Individual Game
+                        </a>
+                        <span> & </span>
+                        <a
+                          href="https://drive.google.com/file/d/1Mdd-CTVg-4E1Cb68YhlXusp1CVSxq8SL/view?usp=drive_link"
+                          target="_blank"
+                          rel="noreferrer"
+                          style={hoverColor}
+                          onMouseEnter={handleMouseEnter}
+                          onMouseLeave={handleMouseLeave}
+                        >
+                          Team Game
+                        </a>
+                      </span>
+                    }
+                    value="80"
                     color="#4805f4"
                   />
                   <ProgressBar name="PYTHON" value="85" color="#e92c3e" />
@@ -320,7 +360,7 @@ function Details() {
                     value="80"
                     color="#4805f4"
                   />
-                  <ProgressBar name="GCP, AWS" value="60" color="#0dfdce" />
+                  <ProgressBar name="GCP, AWS" value="80" color="#0dfdce" />
                   <ProgressBar
                     name="Linux, MacOs, Windows"
                     value="80"

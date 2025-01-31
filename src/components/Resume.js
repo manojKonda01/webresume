@@ -27,7 +27,7 @@ function Resume() {
             /> */}
             <iframe
               title="Manoj-Konda_resume"
-              src="https://drive.google.com/file/d/1qJf64YqXtsYZU4QIvyoE8mNL6yHpVEqO/preview"
+              src="https://drive.google.com/file/d/1Wo9zgqSFht462zk4b2jink_k4LetGl2J/preview"
               width="100%"
               height="100%"
               allow="autoplay"
